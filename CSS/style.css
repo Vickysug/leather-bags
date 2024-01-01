@@ -15,6 +15,10 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
+    .header-intro {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     nav {
       display: flex;
       justify-content: left;
