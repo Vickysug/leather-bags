@@ -14,7 +14,7 @@
     h1, h2, h3, h4, h5 p {
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
-
+/*created a class to make header intro a different font*/
     .header-intro {
         font-family: 'Courier New', Courier, monospace;
     }
@@ -40,6 +40,7 @@
       padding: 1em;
     }
 
+    /*created a class to set size of hero image*/
     .hero-img {
 
         width: 1000px; /* Adjust the width as needed */
@@ -48,7 +49,7 @@
         border-radius: 5px;
 
     }
-
+    /*created a class to set size of button images*/
     .button-img {
         width: 200px; /* Adjust the width as needed */
         height: auto; /* Maintain the aspect ratio */
@@ -65,7 +66,7 @@
       border-radius: 5px;
       background-color: #f9f9f9;
     }
-
+    /*created a class to set size of logo images*/
     #logo {
         width: 50px; /* Adjust the width as needed */
         height: auto; /* Maintain the aspect ratio */
