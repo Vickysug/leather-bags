@@ -5,16 +5,19 @@
     }
 
     header {
-      background-color: #3f3f3f;
+      background-color: #646464;
       color: white;
       padding: 1em;
       text-align: center;
     }
 
-    h1, h2, h3, h4, h5 p {
+    h1, h2, h4, h5 p {
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
-/*created a class to make header intro a different font*/
+    h3 {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
     .header-intro {
         font-family: 'Courier New', Courier, monospace;
     }
@@ -22,17 +25,21 @@
     nav {
       display: flex;
       justify-content: left;
-      background-color: #727272;
+      background-color: #555;
       padding: 0.2em;
       text-align: left;
     }
 
     nav a {
-      color: white;
-      text-decoration: none;
-      padding: 0.5em 1em;
+      color: #ddd;
+      padding-left: 10px;
+      font-size: large;
+      
+      
+
     }
 
+    
     main {
       display: flex;
       flex-wrap: wrap;
@@ -40,7 +47,6 @@
       padding: 1em;
     }
 
-    /*created a class to set size of hero image*/
     .hero-img {
 
         width: 1000px; /* Adjust the width as needed */
@@ -49,7 +55,7 @@
         border-radius: 5px;
 
     }
-    /*created a class to set size of button images*/
+
     .button-img {
         width: 200px; /* Adjust the width as needed */
         height: auto; /* Maintain the aspect ratio */
@@ -66,7 +72,7 @@
       border-radius: 5px;
       background-color: #f9f9f9;
     }
-    /*created a class to set size of logo images*/
+
     #logo {
         width: 50px; /* Adjust the width as needed */
         height: auto; /* Maintain the aspect ratio */
@@ -86,7 +92,7 @@
         flex: 1;
     }
     footer {
-      background-color:#4e4e4e;
+      background-color:#646464;
       color: white;
       text-align: center;
       padding: 1em;
