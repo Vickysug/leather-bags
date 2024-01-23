@@ -1,7 +1,8 @@
 ## Objective
- This project it to create a web page for my leather bags and handmade buttons. I decided on one page instead of several, as the information can be kept to one page. 
+ This project it to create a responsive web page for my leather bags and handmade buttons. I decided on one page instead of several, as the information can be kept to one page. 
  
  The web page must include:
+
     * About section
     * Contact section
     * Where to buy section
@@ -32,3 +33,6 @@
 ## Navigation
 
 I added navigation to the header and footer. The footer section has an extra 'Home' tab which is linked to the header to take the user back to the top of the page.
+
+## Redesign
+I remade the page using bootstrap and media query to make it responsive
