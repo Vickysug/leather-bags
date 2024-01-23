@@ -14,10 +14,11 @@
     h1, h2, h4, h5 p {
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    h3 {
+    .headText  {
       font-family: 'Courier New', Courier, monospace;
+      font-size: 1px;
     }
-
+    .bg-dark 
     .header-intro {
         font-family: 'Courier New', Courier, monospace;
     }
@@ -89,7 +90,7 @@
         border: 0px;
         border-radius: 5px;
     }
-
+    
     
        
     .about {
@@ -105,4 +106,24 @@
       text-align: center;
       padding: 1em;
     }
-  
+  /* Default styles */
+
+/* Add a media query for smaller screens */
+@media (max-width: 768px) {
+  /* Styles to apply when the screen width is 768 pixels or less */
+  body {
+    font-size: 14px;
+  }
+
+  /* Add more styles as needed for smaller screens */
+}
+
+/* Add another media query for even smaller screens if necessary */
+@media (max-width: 576px) {
+  /* Styles to apply when the screen width is 576 pixels or less */
+  body {
+    font-size: 12px;
+  }
+
+  /* Add more styles as needed for even smaller screens */
+}
